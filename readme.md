@@ -15,7 +15,7 @@ Modern Mirror accepts the following arguments:
 ### Simple Route Example
 - Start the server with `modern-mirror`
 - Place a file titled `test.json` in the `~/modern-mirror-routes/` directory or whatever directory you specified with `-d`/`--route-directory`
-- Make any kind of request (Magic Mirror doesn't care if it is a GET, POST, PUT, etc.) to `localhost:3000/test`
+- Make any kind of request (Modern Mirror doesn't care if it is a GET, POST, PUT, etc.) to `localhost:3000/test`
 - The response should be the contents of the `test.json` file you created earlier
 
 ### Nested Route Example

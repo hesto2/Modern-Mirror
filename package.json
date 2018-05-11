@@ -17,5 +17,13 @@
     "type": "git",
     "url": "https://github.com/hesto2/Modern-Mirror.git"
   },
-  "postinstall": "mkdir ~/modern-mirror-routes"
+  "postinstall": "mkdir ~/modern-mirror-routes",
+  "keywords": [
+    "server",
+    "mock",
+    "testing"
+  ],
+  "bin": {
+    "modern-mirror": "./index.js"
+  }
 }
