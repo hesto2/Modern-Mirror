@@ -1,0 +1,21 @@
+{
+  "name": "modern-mirror",
+  "version": "1.0.0",
+  "description": "A simple server that makes mocking production servers more feasible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hesto2",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "express": "^4.16.3",
+    "glob": "^7.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hesto2/Modern-Mirror.git"
+  },
+  "postinstall": "mkdir ~/modern-mirror-routes"
+}
