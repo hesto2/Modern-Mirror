@@ -13,6 +13,11 @@ app.use('/', (req, res) => {
   res = prepareResponse(req, res)
   let matchPath = `${path}${req.url}*`;
   glob(matchPath, (err, files) =>{
+    if(files.length == 0){
+      console.log(`Couldn't find any matching file at ${matchPath}`);
+      res.status(404).send();
+      return;
+    }
     err ? sendErr(res, err) : processFile(res, files[0]);
   })
 })
